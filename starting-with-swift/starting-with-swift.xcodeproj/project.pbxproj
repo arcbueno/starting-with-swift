@@ -24,6 +24,7 @@
 		D08FA12A27EDF0BF00B91DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D08FA12D27EDF0BF00B91DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D08FA12F27EDF0BF00B91DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08FA13627EE040B00B91DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Base; path = Base.lproj/MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		D08FA12027EDF0BE00B91DE2 /* starting-with-swift */ = {
 			isa = PBXGroup;
 			children = (
+				D08FA13727EE040B00B91DE2 /* MyPlayground.playground */,
 				D08FA12127EDF0BE00B91DE2 /* AppDelegate.swift */,
 				D08FA12327EDF0BE00B91DE2 /* SceneDelegate.swift */,
 				D08FA12527EDF0BE00B91DE2 /* ViewController.swift */,
@@ -161,6 +163,14 @@
 				D08FA12D27EDF0BF00B91DE2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D08FA13727EE040B00B91DE2 /* MyPlayground.playground */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D08FA13627EE040B00B91DE2 /* Base */,
+			);
+			name = MyPlayground.playground;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
